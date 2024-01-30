@@ -4,19 +4,38 @@
     <!--this html tag tells the browser that the CODE is of type HTML-->
     <head>
         <!--this sets up the web page to be mobile friendly. (first) mobile responsive-->
-        <title>Biography</title>
+        <title>Bio Page</title>
         <!--the title tag displays the title of the page in a browser tab-->
+        <!--link to external CSS-->
+        <link rel="stylesheet" type="text/css" href="CSS_example/style.css">
     </head>
     <!--the head tags tells the browser that the code inside it needs to execute first-->
     <body>
-      <a href="./CSS_example/index.html">index</a>  
-        <!--the body tag contains the content that is physically web browser itself-->
         
-        <h1>Hello Developers</h1>
-        <p>My Name is Adofuss, but you can call me Addy. I am excited to be a part of this program and I am loving it so far</p>
-        <p>I currently work in the Quality Assurance department for a Medical company.</p>
-        <p>I am a huge soccer fan, and I also enjoy learning about history</p>
-        <p>This is my first test webpage in the DTTP progarm which is organied by SkillHat.</p>
-     <!--this is a paragraph tag that blocks a bunch of text into a paragraph-->
+        <div>
+        <section id="main-bio">
+
+            <h2>Adofuss Okojie</h2>
+
+    <img id="bio image" src="Images/IMG_0369.JPG" alt="Adofuss Okojie" width="300" height="260">
+
+    <p>Hello World, my name is Adofuss, but you can call me Addy for short.
+        I am currently in the Web Development program organized by SkillHat, and I can't wait
+        to start building websites to satisfy all your needs. Below is my contact info, so please feel
+        free to reach out to me anytime.
+    </p>
+        </section>
+            <section id="contact info">
+                <h2>Contact Info</h2>
+                <ul>
+                    <li><strong>Email:</strong> <a href="#">adofussokojie@gmail.com</a></li>
+                    <li><strong>Github:</strong> <a href="#">SampleName</a></li>
+                    <li><strong>Portfolio:</strong> <a href="#">Coming Soon</a></li>
+
+                </ul>
+            </section>
+        </div>
+        
+        
     </body>
 </html>
