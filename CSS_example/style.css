@@ -1,13 +1,22 @@
-.bigger_text{font-size:xx-large}
+body {
+    background-color: #efeee7;}
+head
+#different_font {font-family: Georgia,"Times New Roman",Times,serif; color: #333333;}
 
-#centered_text {text-align:center;}
+body {margin:0 auto; padding:0;}
 
-.bolder_text {font-weight:bolder;}
+header {background-color: #333333;}
 
-#different_font {font-family:Verdana, sans-serif;}
+h1 {color: #eee; font-size:28px;}
+                
+h2 {font-size:24px; width:1024px; margin:0 auto;}
 
-.orange {color: orange;}
+section {float:left;}
 
-.styledFont {font-family: cursive, script, serif; color:green}
+img {float:left;}
 
-#styledImage {border-style: solid double; border-width: 10px 12px 15px 25px; border-color:orange;}
+img {width:200px;}
+
+section {width:70%;}
+
+section {width:30%;}
