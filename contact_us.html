@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contac Us Form</title>
+    <link rel="stylesheet" href="CSS_example/style.css">
+</head>
+<body>
+    <form action="https://api.web3forms.com/submit" method="POST">
+
+        <input type="hidden" name="access_key" value="bcf9b59b-156d-4fb4-ae78-51153b028282"
+        
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea><br><br>
+        <input type="hidden" name="redirect" value="https://web3forms.com/success">
+
+        <input type="hidden" name="from_name" value="Mission Control">
+
+        <input type="submit" value="Send">
+    </form>
+</body>    
+</html>
