@@ -1,41 +1,61 @@
 <!DOCTYPE html>
-<!--this doctype tag tells the browser that this file is of type HTML-->
 <html lang="en">
-    <!--this html tag tells the browser that the CODE is of type HTML-->
-    <head>
-        <!--this sets up the web page to be mobile friendly. (first) mobile responsive-->
-        <title>Bio Page</title>
-        <!--the title tag displays the title of the page in a browser tab-->
-        <!--link to external CSS-->
-        <link rel="stylesheet" type="text/css" href="CSS_example/style.css">
-    </head>
-    <!--the head tags tells the browser that the code inside it needs to execute first-->
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Page</title>
+    <link rel="stylesheet" href="CSS_example/style.css">
+</head>
+<body>
 
-  <div>
-        <section id="main-bio">
+    <header>
+        <h1>Addy Okojie</h1>
+        <img src="Images/IMG_0369.JPG" alt="Images/IMG_0369" width="600" height="1000">
+    </header>
 
-            <h2>Adofuss Okojie</h2>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-    <img id="bio image" src="Images/IMG_0369.JPG" alt="Adofuss Okojie" width="300" height="260">
-
-    <p>Hello World, my name is Adofuss, but you can call me Addy for short.
-        I am currently in the Web Development program organized by SkillHat, and I can't wait
-        to start building websites to satisfy all your needs. Below is my contact info, so please feel
-        free to reach out to me anytime.
-    </p>
+    <main>
+        <section id="about">
+            <h2>About Me: 
+                My name is Adofuss, but I usually go by "Addy".
+                I currently work in the Quality Assurance Department 
+                for a Medical Company, but I do have some experience
+                in the technical support roles as I have previoulsy worked
+                in such a role. I am currently transitioning into a Web Developer,
+                and I am doing this through the DTTP program that is being organized by
+                SkillHat, and I can't wait to share my knowledge and the different projects
+                I will be taking on with you.
+            </h2>
+            <!-- Your about content goes here -->
         </section>
-            <section id="contact info">
-                <h2>Contact Info</h2>
-                <ul>
-                    <li><strong>Contact Adofuss:</strong> <a href="./contact_us.html">click here
-                    <li><strong>Github:</strong> <a href="#">SampleName</a></li>
-                    <li><strong>Portfolio:</strong> <a href="#">Coming Soon</a></li>
 
-                </ul>
-            </section>
-        </div>
-        
-        
-    </body>
+        <section id="work">
+            <h2>My Work</h2>
+            <div class="work-item">
+                <img src="Images/Screenshot (1).png" alt="App 1">
+                <p>App 1 Description: This was a simple contact me form that I had created using web3forms.</p>
+            </div>
+            <div class="work-item">
+                <img src="Images/2024-01-30.png" alt="App 2">
+                <p>App 2 Description: This was a confirmation to show that the web form was working correctly as it should.</p>
+            </div>
+            <!-- More work items go here -->
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <li><strong>Contact Adofuss:</strong> <a href="./contact_us.html">click here
+            <!-- Your contact form or information goes here -->
+        </section>
+    </main>
+
+    <script src="Javascript"></script>
+</body>
 </html>
