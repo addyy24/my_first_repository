@@ -3,59 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio Page</title>
+    <title>Addy Okojie's Portfolio</title>
     <link rel="stylesheet" href="CSS_example/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-
     <header>
-        <h1>Addy Okojie</h1>
-        <img src="Images/IMG_0369.JPG" alt="Images/IMG_0369" width="600" height="1000">
+        <h1>Welcome to My Portfolio</h1>
+        <picture>
+            <img data-lazy="Images/Image_203.JPG" alt="Addy Okojie" style="width:100%;max-width:700px;height:auto;">
+        </picture>
     </header>
-
     <nav>
         <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#work">Work</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#work">My Work</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
-
     <main>
         <section id="about">
-            <h2>About Me: 
-                My name is Adofuss, but I usually go by "Addy".
-                I currently work in the Quality Assurance Department 
-                for a Medical Company, but I do have some experience
-                in the technical support roles as I have previoulsy worked
-                in such a role. I am currently transitioning into a Web Developer,
-                and I am doing this through the DTTP program that is being organized by
-                SkillHat, and I can't wait to share my knowledge and the different projects
-                I will be taking on with you.
-            </h2>
-            <!-- Your about content goes here -->
-        </section>
+            <h2>About Me</h2>
+            <p>
+                My name is Adofuss, but I usually go by "Addy". I currently work in the Quality Assurance Department
+                for a Medical Company, but I do have some experience in technical support roles. I am transitioning into a Web Developer
+                through the DTTP program by SkillHat. I'm excited to share my journey and projects with you.
+            </p>
 
+            
+        </section>
         <section id="work">
             <h2>My Work</h2>
             <div class="work-item">
-                <img src="Images/Screenshot (1).png" alt="App 1">
-                <p>App 1 Description: This was a simple contact me form that I had created using web3forms.</p>
+                <img src="Images/Screenshot (1).png" alt="Contact Form App">
+                <p>This was a simple contact me form that I created using web3forms.</p>
             </div>
             <div class="work-item">
-                <img src="Images/2024-01-30.png" alt="App 2">
-                <p>App 2 Description: This was a confirmation to show that the web form was working correctly as it should.</p>
+                <img src="Images/2024-01-30.png" alt="Form Confirmation Screen">
+                <p>This was a confirmation to show that the web form was working correctly as it should.</p>
             </div>
-            <!-- More work items go here -->
         </section>
-
         <section id="contact">
             <h2>Contact Me</h2>
-            <li><strong>Contact Adofuss:</strong> <a href="./contact_us.html">click here
-            <!-- Your contact form or information goes here -->
+            <p><strong>Contact Adofuss:</strong> <a href="./contact_us.html">Click here</a></p>
+            <p>Connect with me on <a href="https://www.linkedin.com/in/addy-okojie/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a> and <a href="https://github.com/addyy24" target="_blank"><i class="fab fa-github"></i> GitHub</a>.</p>
         </section>
     </main>
 
-    <script src="Javascript"></script>
+    <script src="script.js"></script>
 </body>
 </html>
